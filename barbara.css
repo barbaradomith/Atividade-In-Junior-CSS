@@ -387,35 +387,34 @@ footer div button:hover{
         align-items: center;    
         }
     .menu-toggle {
-    display: block;
-    background: none;
-    border: none;
-    font-size: 28px;
-    cursor: pointer;
+        display: block;
+        background: none;
+        border: none;
+        font-size: 28px;
+        cursor: pointer;
   }
 
-  #menu {
-    display: none;
-    flex-direction: column;
-    position: absolute;
-    top: 70px;
-    right: 16px;
-    background: white;
-    border-radius: 6px;
-    padding: 12px;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
-    z-index: 100;
-  }
+    #menu {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 70px;
+        right: 16px;
+        background: white;
+        border-radius: 6px;
+        padding: 12px;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+        z-index: 100;
+    }
+    #menu.active {
+        display: flex;
+    }
 
-  #menu.active {
-    display: flex;
-  }
-
-  #menu a {
-    color: black;
-    text-decoration: none;
-    margin: 6px 0;
-    font-size: 16px;
-  }
+    #menu a {
+        color: black;
+        text-decoration: none;
+        margin: 6px 0;
+        font-size: 16px;
+    }
 }
 
